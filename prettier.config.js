@@ -1,10 +1,10 @@
 module.exports = {
   printWidth: 100,
-  semi: true,
-  vueIndentScriptAndStyle: true,
+  semi: false,
+  vueIndentScriptAndStyle: false,
   singleQuote: true,
-  trailingComma: 'all',
+  trailingComma: 'none',
   proseWrap: 'never',
   htmlWhitespaceSensitivity: 'strict',
-  endOfLine: 'auto',
-};
+  endOfLine: 'auto'
+}
